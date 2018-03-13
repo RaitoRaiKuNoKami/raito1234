@@ -15,7 +15,7 @@ bot.on('ready', function() {
     console.log("Connectedç");
 });
 
-bot.login("NDIyNjk5Mjk0NzM5Mzk4NjU2.DYfk8g.gVeLtharhv-zlNj06MQ2Pa9kk8I");
+bot.login("process.env.TOKEN");
 
 
 bot.on('message', message => {
